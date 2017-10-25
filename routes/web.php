@@ -18,4 +18,6 @@ $router->get('/', function () use ($router) {
 
 $router->get('/ctacte/{rut}', ['uses'=>'CtaCteController@getCtaCte']);
 
+$router->get('/deudahoy/{rut}', ['uses'=>'CtaCteController@getDeudaHoy']);
+
 $router->get('/deudaactualizada/{rut}', ['uses'=>'CtaCteController@getDeudaActualizada']);
